@@ -6,7 +6,7 @@
 # Version 0.5
 
 # What this script does:
-# Converts all {jpg,JPG} files in the current directory using ImageMagick's "convert -auto-orient file.jpg file_orient.jpg" then outputs to a subdirectory.
+# Converts all {jpg,JPG} files in the current directory using ImageMagick's "convert -auto-orient" option, then outputs to a subdirectory.
 
 # Dependencies: ImageMagick
 
