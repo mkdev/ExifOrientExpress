@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# EXIF Orient Express - Mass JPG Orientation Fix Before Upload
+# EXIF Orient Express - Mass EXIF Orientation Fix Before Upload
 # by Michael Kovalenko
 # June 12, 2016
 # Version 0.5
