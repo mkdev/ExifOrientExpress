@@ -36,7 +36,7 @@ PRTY=------- 		# currently 7 characters for "-------"
 ### TESTING MODE
 
 # Clean up previous subdirectory with test files
-rm -rf $DIR
+#rm -rf $DIR
 
 ###
 ##############################
@@ -61,9 +61,6 @@ mkdir $DIR
 for pic in *"$INFMT"
 do
 	CHECKFILE=$(ls "$pic" | sed -e s/\.$INFMT//)
-
-# scratch - temp
-# $(tput setaf 1)$(tput setab 7)tr -dc '0-9'$(tput sgr0)
 
 		# Call ImageMagic's identify to check exif:Orientation orientation
 		echo "$CHECKFILE.$INFMT  --$PRTY[ - ]--------->  "exif:Orientation="$(tput setaf 1)$(tput setab 7) "$(identify -format "%[EXIF:*]" "$CHECKFILE".$INFMT | grep Orient | tr -dc '0-9')" $(tput sgr0)" 
