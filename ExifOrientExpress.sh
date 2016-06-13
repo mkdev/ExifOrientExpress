@@ -32,17 +32,6 @@ PRTY=------- 		# currently 7 characters for "-------"
 
 # --------------------------------------------------------------------- #
 
-##############################
-### TESTING MODE
-
-# Clean up previous subdirectory with test files
-#rm -rf $DIR
-
-###
-##############################
-
-# --------------------------------------------------------------------- #
-
 # GO TO WORK
 
 # Create some space above the output because I like space
